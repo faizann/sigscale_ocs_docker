@@ -4,7 +4,7 @@ This is a simple docker file to run sigscale ocs. Nothing is tested except GUI. 
 
 
 # Create Docker image using this command
-`docker build -t ocs:1.0 --build-arg ocs_ver=v3.0.4`
+`docker build -t ocs:1.0 --build-arg ocs_ver=v3.0.4 .`
 
 
 # Run the docker using this command to directly attach to the erlang shell.
